@@ -1,0 +1,242 @@
+html{
+    font-size:16px;
+}
+.rose{
+    text-align: center;
+    color:#ffd61a;
+    margin-top: 120px;
+    margin-bottom: 24px;
+    
+   
+    }
+.lily{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img1/mainbg.png);
+    animation:bgiLoop 5s linear infinite;
+    width:100%;
+    height:400px;
+}
+@keyframes bgiLoop{
+    0%{background-position: 0 0;}
+    100%{
+        background-position: -100px;
+    }
+}
+.lily h1{
+    size: 20px;
+}
+.tulip{
+    text-align: center;
+}
+.tulip_tulip{
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.item{
+    display: flex;
+    grid-template-columns: 150px;
+    gap: 20px;
+}
+.lemon{
+    font-size: 48px;
+}
+.banana{
+    font-size: 36px;
+}
+.cherry{
+    height: 80px;
+    margin-top: 25px;
+    font: 21px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color:#efefef;
+}
+.grape{
+    margin-top: 80px;
+    margin-bottom: 64px;
+    display:flex;
+    width:200px;
+    height:200px;
+}
+   
+.pair{
+    display:flex;
+}
+.melon{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.strawberry{
+    text-align: center;
+    margin: 50px;
+}
+.image_box{
+    display: flex;
+}
+.image_box_text{
+    margin-left: 48px;
+    width: 50%;
+    text-align: center; 
+    margin-top: 120px;
+    align-items: center;
+    /* margin-left: 48px;
+    width: 50%;
+    text-align: left; 
+    margin-top: 120px; */
+}
+.image_box_image{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: -7px;
+    /* margin-left: -30px; */
+text-align: center;
+display: flex;
+justify-content: center;
+
+}
+
+.news_title{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.news_title h1{
+    color: #ffd61a;
+   
+}
+.news_box{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 50px;
+}
+
+.more {
+   font-size: 21px;
+    background-color: #ffd61a;
+   display: flex;
+   text-align: center; 
+   justify-content: space-around;
+   color: white;
+    width: 300px;
+    height: 60px;   
+}
+
+.more_box{
+    display: flex;
+    align-items: center;
+    padding-left: 560px;
+   margin-top: 48px;
+   margin-bottom: 48px;
+}
+
+
+.access{
+    background-color: #fafafa;
+    padding: 30px;
+}
+.access div{
+    text-align: center;
+}
+.acces_item{
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+
+.contact{
+    text-align: center;
+    margin-top:60px ;
+    margin-bottom: 60px;
+}
+.news_imag_text{
+    text-align: center;
+}
+.body{
+    line-height: 1.75px;
+    font-size: 16px;
+    font-family: "ROBOTO","游ゴシック";
+}
+/* .image_box_text{
+    margin-top: 120px;
+    align-items: center;
+    } */
+.map{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+table {
+    margin-left: 450px;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: baseline;
+    margin-bottom: 80px;
+}
+table td
+{
+    padding: 12px 24px;
+    text-align: left;
+    
+}
+textarea{
+    width: 328px;
+    height: 108px;
+}
+
+    
+.check{
+    display: block;
+}
+footer{
+    font: 18px;
+    color:white;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #707070;
+}
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #ffd61a;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ffd61a;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffd61a;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+#page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; /*背景色*/
+    color: #666; /*文字色*/
+    transition: .3s;
+    margin-top: 30px;
+}
+/***マウスオーバー時***/
+#page-top:hover {
+    background: #666; /*背景色*/
+    color: #fff; /*文字色*/
+}
